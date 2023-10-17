@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuest Developer Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <h1>CodeQuest</h1> 
+        <div id="timer">Time: <span id= "time">60</span> seconds</div>
+        <br>
+        <button class="start-button">Start</button>
+    </header>
+   <main>
+    <section>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Click the Start button to begin the game</li>
+            <li>Every wrong answer will deduct time</li>
+            <li>Every correct answer will add time</li>
+            <li>The game will end when the timer reaches 0</li>
+        </ol>
+    </section>
+    <div class="title">
+        <h2>CodeQuest</h2>
+     <div class="quiz">
+        <h2 id="question">Question:</h2>
+        <div id="answer-buttons">
+         <button class="btn">Answer 1</button>
+         <br>
+         <button class="btn">Answer 2</button>
+         <br>
+         <button class="btn">Answer 3</button>
+         <br>
+         <button class="btn">Answer 4</button>   
+        </div>
+        <button id="next-btn"Next"></button>
+    </div>
+    </div>
+    <div id="high-score-form">
+        <form id="high-score-form">
+            <label for="high-score">Enter your high score:</label>
+            <input type="text" id="high-score">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+</main>
+ <script src="script.js"></script>   
+</body>
+</html>
